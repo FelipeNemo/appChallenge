@@ -1,0 +1,107 @@
+Exemplo de entrada e saida do endpoint
+
+_______________________________________________
+Percorrer o dicionario para consulta de cada CNPJ:
+
+{0: 'cnpj', 
+1: '42.013.551/0001-30',
+2: '39.922.063/0001-30',
+3: '40.916.606/0001-96', 
+4: '41.461.512/0001-32', 
+5: '35.865.947/0001-40', 
+6: '36.931.922/0001-60', 
+7: '36.149.348/0001-92', 
+8: '41.665.075/0001-79', 
+9: '41.182.405/0001-75', 
+10: '37.204.421/0001-44', 
+11: '33.633.857/0001-06', 
+12: '37.654.828/0001-73', 
+13: '24.302.781/0001-37', 
+14: '37.145.986/0001-06', 
+15: '30.909.004/0001-58', 
+16: '41.884.167/0001-40', 
+17: '40.164.422/0001-17', 
+18: '40.281.052/0001-06', 
+19: '39.854.502/0001-15',
+20: '36.249.913/0001-93'}
+<class 'dict'>
+_______________________________________________
+Saida exemplo:
+
+CNPJ = '42013551000130'
+200 ok
+
+{
+  "atividade_principal": [
+    {
+      "code": "74.90-1-04",
+      "text": "Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários"
+    }
+  ],
+  "data_situacao": "19/05/2021",
+  "fantasia": "CSA EMPREENDIMENTOS DIGITAIS",
+  "tipo": "MATRIZ",
+  "nome": "CSA INTERMEDIACAO EM COMPRAS COLETIVAS LTDA",
+  "telefone": "(41) 9686-9828",
+  "email": "meucnpj@contabilizei.com.br",
+  "atividades_secundarias": [
+    {
+      "code": "59.11-1-02",
+      "text": "Produção de filmes para publicidade"
+    },
+    {
+      "code": "73.11-4-00",
+      "text": "Agências de publicidade"
+    },
+    {
+      "code": "73.19-0-02",
+      "text": "Promoção de vendas"
+    },
+    {
+      "code": "73.19-0-03",
+      "text": "Marketing direto"
+    },
+    {
+      "code": "73.19-0-04",
+      "text": "Consultoria em publicidade"
+    },
+    {
+      "code": "73.19-0-99",
+      "text": "Outras atividades de publicidade não especificadas anteriormente"
+    }
+  ],
+  "qsa": [
+    {
+      "nome": "RENAN LUCIANO BURDA",
+      "qual": "22-Sócio"
+    },
+    {
+      "nome": "RAFAELE FARIAS TOMAZ",
+      "qual": "49-Sócio-Administrador"
+    }
+  ],
+  "situacao": "ATIVA",
+  "bairro": "CAPAO RASO",
+  "logradouro": "R FRANCISCO DE CAMARGO PINTO",
+  "numero": "1359",
+  "cep": "81.150-090",
+  "municipio": "CURITIBA",
+  "porte": "EMPRESA DE PEQUENO PORTE",
+  "abertura": "19/05/2021",
+  "natureza_juridica": "206-2 - Sociedade Empresária Limitada",
+  "uf": "PR",
+  "cnpj": "42.013.551/0001-30",
+  "ultima_atualizacao": "2024-06-06T12:04:09.452Z",
+  "status": "OK",
+  "complemento": "",
+  "efr": "",
+  "motivo_situacao": "",
+  "situacao_especial": "",
+  "data_situacao_especial": "",
+  "capital_social": "1000.00",
+  "extra": {},
+  "billing": {
+    "free": true,
+    "database": true
+  }
+}
