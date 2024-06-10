@@ -60,7 +60,12 @@ try:
         df_resultados = pd.DataFrame(resultados)
         print(df_resultados)
 
+
     print("Consulta finalizada.")
+
+    caminho_arquivo = "resultados.csv"
+    df_resultados.to_csv(caminho_arquivo, sep=',', index=False)
+
 
 except ErroDeRequisicao as e:
     print(e)
